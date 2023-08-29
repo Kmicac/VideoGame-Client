@@ -9,7 +9,7 @@ const Card = ({ image, name, genres, rating, id }) => {
 
   const dispatch = useDispatch(); 
 
-  const handleDelete = () => {
+  const handleDelete = (id) => {
     dispatch(deleteGame(id));
     Swal.fire("You've deleted the game with success");
     dispatch(getVideogames());
