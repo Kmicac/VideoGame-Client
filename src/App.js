@@ -5,7 +5,7 @@ import Home from './Views/Home/Home.jsx';
 import Form from './Views/Form/Form.jsx';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://videogame-api-production-2626.up.railway.app/';
+axios.defaults.baseURL = "https://videogame-api-production-2626.up.railway.app/";
 
 
 function App() {
